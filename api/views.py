@@ -21,18 +21,18 @@ def disp(request,variable):
 
         if response.status_code == 200:
             data = response.json()
-            # Process the data as needed
-            location=data["name"]
-            temp=data["main"]["temp"]
-            humidity=data["main"]["humidity"]
-            description=data["weather"][0]["description"]
+            # # Process the data as needed
+            # location=data["name"]
+            # temp=data["main"]["temp"]
+            # humidity=data["main"]["humidity"]
+            # description=data["weather"][0]["description"]
 
-            send={
-                "location":location,
-                "temp":temp,
-                "humidity":humidity,
-                "description":description
-            }
+            # send={
+            #     "location":location,
+            #     "temp":temp,
+            #     "humidity":humidity,
+            #     "description":description
+            # }
 
             #json_data=json.dumps(send)
             #return HttpResponse(f"{send}")
