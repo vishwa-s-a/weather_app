@@ -10,13 +10,7 @@ function SearchComponent() {
             .then((response) => response.json())
             .then((data) => {
                 let temp = [data["name"], data["main"]["temp"], data["main"]["humidity"], data["weather"][0]["description"], data["weather"][0]["icon"] ]
-                if (Array.isArray(temp)) {
-                    // console.log(temp)
-                    setResults(temp);
-                } else {
-                    console.error('Data is not an array:', data);
-                    // Handle the case where data is not an array
-                }
+                setResults(temp);
             })
             .catch((error) => {
                 console.error('Error:', error);
