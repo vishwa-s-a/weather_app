@@ -43,3 +43,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ```bash
 npm start
 ```
+
+### You may access this blog for further details on how to host this fullstack app on aws.
+### By clicking this link [vishwa-s-a.blogspot.com](https://vishwa-s-a.blogspot.com/2023/09/test.html)
+
